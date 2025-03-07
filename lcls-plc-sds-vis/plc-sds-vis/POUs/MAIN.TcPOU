@@ -23,13 +23,13 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[fbVIS_X_Motor(stMotionStage:=M1);
+      <ST><![CDATA[M1.bHardwareEnable:=TRUE;
+M2.bHardwareEnable:=TRUE;
+M3.bHardwareEnable:=TRUE;
+fbVIS_X_Motor(stMotionStage:=M1);
 fbVIS_Y_Motor(stMotionStage:=M2);
-fbVIS_Z_Motor(stMotionStage:=M3);]]></ST>
+fbVIS_Z_Motor(stMotionStage:=M3);
+]]></ST>
     </Implementation>
-    <LineIds Name="MAIN">
-      <LineId Id="3" Count="1" />
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>

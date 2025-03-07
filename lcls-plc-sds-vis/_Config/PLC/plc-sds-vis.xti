@@ -983,7 +983,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{637383AB-EB4E-4ABB-B1B0-A4EF767D84E1}" Name="plc-sds-vis" PrjFilePath="..\..\plc-sds-vis\plc-sds-vis.plcproj" TmcFilePath="..\..\plc-sds-vis\plc-sds-vis.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="plc-sds-vis\plc-sds-vis.tmc" TmcHash="{5C0B1D08-A35A-73A0-5627-E3E1005159D7}">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="plc-sds-vis\plc-sds-vis.tmc" TmcHash="{59C01F4F-3994-93CC-57E5-0CD0A956F2AF}">
 			<Name>plc-sds-vis Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="1">
@@ -1026,6 +1026,11 @@ External Setpoint Generation:
 					<Name>MAIN.M1.nRawEncoderINT</Name>
 					<Comment><![CDATA[ Raw encoder IO for INT (LVDT)]]></Comment>
 					<Type>INT</Type>
+				</Var>
+				<Var>
+					<Name>MAIN.M1.nRawEncoderDINT</Name>
+					<Comment><![CDATA[ Raw encoder IO for INT (EL5072 LVDT)]]></Comment>
+					<Type>DINT</Type>
 				</Var>
 				<Var>
 					<Name>MAIN.fbVIS_X_Motor.fbDriveVirtual.MasterAxis.NcToPlc</Name>
@@ -1071,6 +1076,11 @@ External Setpoint Generation:
 					<Type>INT</Type>
 				</Var>
 				<Var>
+					<Name>MAIN.M2.nRawEncoderDINT</Name>
+					<Comment><![CDATA[ Raw encoder IO for INT (EL5072 LVDT)]]></Comment>
+					<Type>DINT</Type>
+				</Var>
+				<Var>
 					<Name>MAIN.fbVIS_Y_Motor.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 					<Type GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 				</Var>
@@ -1112,6 +1122,11 @@ External Setpoint Generation:
 					<Name>MAIN.M3.nRawEncoderINT</Name>
 					<Comment><![CDATA[ Raw encoder IO for INT (LVDT)]]></Comment>
 					<Type>INT</Type>
+				</Var>
+				<Var>
+					<Name>MAIN.M3.nRawEncoderDINT</Name>
+					<Comment><![CDATA[ Raw encoder IO for INT (EL5072 LVDT)]]></Comment>
+					<Type>DINT</Type>
 				</Var>
 				<Var>
 					<Name>MAIN.fbVIS_Z_Motor.fbDriveVirtual.MasterAxis.NcToPlc</Name>

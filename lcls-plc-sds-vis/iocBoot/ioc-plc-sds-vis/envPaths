@@ -1,2 +1,2 @@
-epicsEnvSet("IOC_TOP", "/c/Users/rnazir/Desktop/plc-sds-vis/lcls-plc-sds-vis/iocBoot/ioc-plc-sds-vis")
+epicsEnvSet("IOC_TOP", "/c/Users/rnazir/Desktop/Git_repos/lcls-plc-sds-vis/lcls-plc-sds-vis/iocBoot/ioc-plc-sds-vis")
 epicsEnvSet("IOC_DATA", "/cds/data/iocData")
